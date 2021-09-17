@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](tps://github.com/rebekahshaw92/3-column-preview-card-component)
+- Solution URL: [Solution](https://github.com/rebekahshaw92/3-column-preview-card-component)
 - Live Site URL: [Live Site](https://rebekahshaw92.github.io/3-column-preview-card-component/)
 
 ### Built with
