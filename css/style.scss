@@ -1,0 +1,140 @@
+$brightOrange: hsl(31, 77%, 52%);
+$font: 'Big Shoulders Display', cursive;
+$secondFont: 'Lexend Deca', sans-serif;
+$white: hsla(0, 0%, 100%, 0.75);
+$lightGray: hsl(0, 0%, 95%);
+$darkCyan: hsl(184, 100%, 22%);
+$veryDarkCyan: hsl(179, 100%, 13%);
+$desktop: 1440px;
+$mobile: 375px;
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+        padding-bottom: 20px;
+    @media (min-width: $desktop) {
+        padding-top: 20px;
+            }
+    @media (min-width: $mobile) {
+        padding-top: 40px;
+        }
+    a { 
+        color: hsl(228, 45%, 44%);
+    }
+}
+
+.card {
+    background-color: $brightOrange;
+    @media (max-width: $desktop) {
+        width: 18rem;
+    }
+    @media (max-width: $mobile) {
+    padding-right: 20px;
+    width: 20rem;
+    }
+}
+
+.row {
+    @media (max-width: $desktop){
+    padding-top: 100px;
+    }
+    @media (max-width: $mobile){
+    padding-top: 90px;
+    padding-left: 20px;
+     margin-right: 20px;
+        }
+}
+
+.card-title {
+    font-family: $font;
+    font-weight: 700;
+    color: $lightGray;
+    padding-left: 20px;
+    @media (max-width: $desktop){
+        font-size: 35px;
+        }
+    @media (max-width: $mobile){
+            font-size: 30px;
+            }
+}
+
+.card-img-top {
+    height: 80px;
+    width: 80px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.card-text {
+    color: $white;
+    font-size: 15px;
+    font-family: $secondFont;
+    padding-left: 20px;
+    //padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+    
+.btn-primary {
+    width: 150px;
+    background-color: $lightGray;
+}
+
+.btn-primary:hover {
+    color: $lightGray;
+    border: 1px solid $lightGray;
+}
+
+
+.btn-sedans {
+    color: $brightOrange;
+}
+
+.btn-sedans:hover {
+    background-color: $brightOrange;
+}
+
+.btn-suv {
+    color: $darkCyan;
+}
+
+.btn-suv:hover {
+    background-color: $darkCyan;
+}
+
+.btn-luxury {
+    color: $veryDarkCyan;
+}
+
+.btn-luxury:hover {
+    background-color: $veryDarkCyan;
+}
+
+.learn {
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+.card-suv {
+    background-color: $darkCyan; 
+    //height: 450px;
+    @media (max-width: $desktop) {
+        width: 18rem;
+    }
+    @media (max-width: $mobile) {
+    padding-right: 20px;
+    width: 20rem;
+    }
+}
+
+.card-luxury {
+    background-color: $veryDarkCyan;
+    @media (max-width: $desktop) {
+        width: 18rem;
+    }
+    @media (max-width: $mobile) {
+    padding-right: 20px;
+    width: 20rem;
+    }
+}

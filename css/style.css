@@ -1,0 +1,151 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+@media (min-width: 1440px) {
+  .attribution {
+    padding-top: 20px;
+  }
+}
+@media (min-width: 375px) {
+  .attribution {
+    padding-top: 40px;
+  }
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+.card {
+  background-color: #e38826;
+}
+@media (max-width: 1440px) {
+  .card {
+    width: 18rem;
+  }
+}
+@media (max-width: 375px) {
+  .card {
+    padding-right: 20px;
+    width: 20rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .row {
+    padding-top: 100px;
+  }
+}
+@media (max-width: 375px) {
+  .row {
+    padding-top: 90px;
+    padding-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.card-title {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  color: #f2f2f2;
+  padding-left: 20px;
+}
+@media (max-width: 1440px) {
+  .card-title {
+    font-size: 35px;
+  }
+}
+@media (max-width: 375px) {
+  .card-title {
+    font-size: 30px;
+  }
+}
+
+.card-img-top {
+  height: 80px;
+  width: 80px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.card-text {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.btn-primary {
+  width: 150px;
+  background-color: #f2f2f2;
+}
+
+.btn-primary:hover {
+  color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+}
+
+.btn-sedans {
+  color: #e38826;
+}
+
+.btn-sedans:hover {
+  background-color: #e38826;
+}
+
+.btn-suv {
+  color: #006970;
+}
+
+.btn-suv:hover {
+  background-color: #006970;
+}
+
+.btn-luxury {
+  color: #004241;
+}
+
+.btn-luxury:hover {
+  background-color: #004241;
+}
+
+.learn {
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
+
+.card-suv {
+  background-color: #006970;
+}
+@media (max-width: 1440px) {
+  .card-suv {
+    width: 18rem;
+  }
+}
+@media (max-width: 375px) {
+  .card-suv {
+    padding-right: 20px;
+    width: 20rem;
+  }
+}
+
+.card-luxury {
+  background-color: #004241;
+}
+@media (max-width: 1440px) {
+  .card-luxury {
+    width: 18rem;
+  }
+}
+@media (max-width: 375px) {
+  .card-luxury {
+    padding-right: 20px;
+    width: 20rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
