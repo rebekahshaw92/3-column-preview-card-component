@@ -1,3 +1,5 @@
+@import "../scss/bootstrap-grid.scss";
+
 $brightOrange: hsl(31, 77%, 52%);
 $font: 'Big Shoulders Display', cursive;
 $secondFont: 'Lexend Deca', sans-serif;
@@ -11,13 +13,11 @@ $mobile: 375px;
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    padding-top: 40px;
         padding-bottom: 20px;
-    @media (min-width: $desktop) {
+        @include media-breakpoint-up (xxl) {
         padding-top: 20px;
             }
-    @media (min-width: $mobile) {
-        padding-top: 40px;
-        }
     a { 
         color: hsl(228, 45%, 44%);
     }
@@ -25,37 +25,47 @@ $mobile: 375px;
 
 .card {
     background-color: $brightOrange;
-    @media (max-width: $desktop) {
-        width: 18rem;
-    }
-    @media (max-width: $mobile) {
     padding-right: 20px;
     width: 20rem;
+    @include media-breakpoint-up (lg){
+        width: 15rem;
     }
+    @include media-breakpoint-up (xl) {
+        width: 15rem;
+    }
+    @include media-breakpoint-up (xxl) {
+        width: 18rem;
+    }
+
 }
 
 .row {
-    @media (max-width: $desktop){
-    padding-top: 100px;
-    }
-    @media (max-width: $mobile){
     padding-top: 90px;
     padding-left: 20px;
-     margin-right: 20px;
-        }
+    margin-right: 20px;
+    @include media-breakpoint-up (md) {
+        padding-left: 200px;
+    }
+    @include media-breakpoint-up (lg) {
+        margin-left: -150px;
+    }
+    @include media-breakpoint-up (xl) {
+        margin-left: -120px;
+    }
+    @include media-breakpoint-up (xxl){
+    padding-top: 100px;
+    }
 }
 
 .card-title {
     font-family: $font;
     font-weight: 700;
+    font-size: 30px;
     color: $lightGray;
     padding-left: 20px;
-    @media (max-width: $desktop){
+    @include media-breakpoint-up (xxl){
         font-size: 35px;
         }
-    @media (max-width: $mobile){
-            font-size: 30px;
-            }
 }
 
 .card-img-top {
@@ -118,23 +128,24 @@ $mobile: 375px;
 
 .card-suv {
     background-color: $darkCyan; 
-    //height: 450px;
-    @media (max-width: $desktop) {
-        width: 18rem;
-    }
-    @media (max-width: $mobile) {
     padding-right: 20px;
     width: 20rem;
+    @include media-breakpoint-up (lg) {
+        width: 15rem;
+    }
+    @include media-breakpoint-up (xxl) {
+        width: 18rem;
     }
 }
 
 .card-luxury {
     background-color: $veryDarkCyan;
-    @media (max-width: $desktop) {
-        width: 18rem;
-    }
-    @media (max-width: $mobile) {
     padding-right: 20px;
     width: 20rem;
+    @include media-breakpoint-up (lg) {
+        width: 15rem;
+    }
+    @include media-breakpoint-up (xxl) {
+        width: 18rem;
     }
 }
